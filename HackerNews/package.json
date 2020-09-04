@@ -1,0 +1,21 @@
+{
+  "name": "hackernews",
+  "version": "1.0.0",
+  "description": "A hacker news clone with next",
+  "main": "server.js",
+  "scripts": {
+    "gun": "next -p 3000",
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "deploy": "now --public"
+  },
+  "author": "Gunjan",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sw-precache-webpack-plugin": "^1.0.0"
+  }
+}
